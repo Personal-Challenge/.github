@@ -17,12 +17,6 @@ Personal Todo Challenge es una aplicación web para gestionar tareas. La soluci�
 flowchart LR
     user[Usuario / Navegador]
 
-    subgraph org[Organización GitLab]
-        deployRepo[personal-todo-deploy]
-        frontendRepo[personal-todo-frontend]
-        backendRepo[personal-todo-backend]
-    end
-
     subgraph host[Máquina host]
         subgraph compose[Docker Compose]
             subgraph network[personal-todo-network]
@@ -34,11 +28,6 @@ flowchart LR
             volume[(mongo_data\n/data/db)]
         end
     end
-
-    deployRepo -->|setup.sh clona/actualiza| frontendRepo
-    deployRepo -->|setup.sh clona/actualiza| backendRepo
-    deployRepo -->|docker compose build| frontend
-    deployRepo -->|docker compose build| backend
 
     user -->|HTTP http://localhost:3000| frontend
     frontend -->|HTTP API http://localhost:8080/tasks| backend

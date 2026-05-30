@@ -2,6 +2,10 @@
 
 Personal Todo Challenge es una aplicación web para gestionar tareas. La solución está separada en tres repositorios dentro de la organización: frontend, backend y deploy. Esto permite evolucionar la interfaz, la API y la infraestructura local de forma independiente, manteniendo un punto único para levantar todo el sistema con Docker Compose.
 
+## Como levantar la aplicación
+
+> <span style="color:#0b6e4f;font-weight:600">Acceso directo al instructivo de instalación:</span> [README del repositorio de despliegue](https://github.com/Personal-Challenge/personal-todo-deploy)
+
 ## Repositorios
 
 | Repositorio              | Rol            | Contenido principal                                                                                                     |

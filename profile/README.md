@@ -4,7 +4,7 @@ Personal Todo Challenge es una aplicación web para gestionar tareas. La soluci�
 
 ## Como levantar la aplicación
 
-> <span style="color:#0b6e4f;font-weight:600">Acceso directo al instructivo de instalación:</span> [README del repositorio de despliegue](https://github.com/Personal-Challenge/personal-todo-deploy)
+<span style="color:#0b6e4f;font-weight:600">Acceso directo al instructivo de instalación:</span> [README del repositorio de despliegue](https://github.com/Personal-Challenge/personal-todo-deploy)
 
 ## Repositorios
 

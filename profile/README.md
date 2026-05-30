@@ -6,9 +6,9 @@ Personal Todo Challenge es una aplicaci처n web para gestionar tareas. La soluci�
 
 | Repositorio              | Rol            | Contenido principal                                                                                                     |
 | ------------------------ | -------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `personal-todo-frontend` | Aplicaci처n web | React, TypeScript, Vite, Axios, React Router y componentes de UI para listar, crear, editar, eliminar y filtrar tareas. |
-| `personal-todo-backend`  | API REST       | Node.js, Express, TypeScript, Mongoose, Zod, arquitectura en capas y tests con Jest/Supertest.                          |
-| `personal-todo-deploy`   | Orquestaci처n   | `docker-compose.yml`, `setup.sh`, `Makefile`, variables de entorno, seed de datos.                                      |
+| <span style="white-space:nowrap">[personal-todo-frontend](https://github.com/Personal-Challenge/personal-todo-frontend)</span> | <span style="white-space:nowrap">Aplicaci처n web</span> | React, TypeScript, Vite, Axios, React Router y componentes de UI para listar, crear, editar, eliminar y filtrar tareas. |
+| <span style="white-space:nowrap">[personal-todo-backend](https://github.com/Personal-Challenge/personal-todo-backend)</span>   | <span style="white-space:nowrap">API REST</span>       | Node.js, Express, TypeScript, Mongoose, Zod, arquitectura en capas y tests con Jest/Supertest.                          |
+| <span style="white-space:nowrap">[personal-todo-deploy](https://github.com/Personal-Challenge/personal-todo-deploy)</span>     | <span style="white-space:nowrap">Orquestaci처n</span>   | `docker-compose.yml`, `setup.sh`, `Makefile`, variables de entorno, seed de datos.                                      |
 
 
 ## Diagrama de arquitectura

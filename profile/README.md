@@ -20,20 +20,20 @@ flowchart LR
     subgraph host[Máquina host]
         subgraph compose[Docker Compose]
             subgraph network[personal-todo-network]
-                frontend[frontend\nReact + Vite + Nginx\npuerto 3000]
-                backend[backend\nNode.js + Express + Mongoose\npuerto 8080]
-                mongo[(mongo\nMongoDB\npuerto 27017)]
+                frontend[frontend<br/>React + Vite + Nginx<br/>puerto 3000]
+                backend[backend<br/>Node.js + Express + Mongoose<br/>puerto 8080]
+                mongo[(mongo<br/>MongoDB<br/>puerto 27017)]
             end
 
-            volume[(mongo_data\n/data/db)]
+            volume[(mongo_data<br/>/data/db)]
         end
     end
-
-    user -->|HTTP http://localhost:3000| frontend
-    frontend -->|HTTP API http://localhost:8080/tasks| backend
-    backend -->|MONGO_URI vía hostname mongo| mongo
+    user -->|HTTP<br/>http://localhost:3000| frontend
+    frontend -->|HTTP API<br/>http://localhost:8080/tasks| backend
+    backend -->|MONGO_URI<br/>vía hostname mongo| mongo
     mongo -->|persistencia| volume
 ```
+
 
 ## Arquitectura de ejecución
 

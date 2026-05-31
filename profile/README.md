@@ -1,6 +1,6 @@
 # Personal Todo - Arquitectura
 
-Personal Todo Challenge es una aplicación web para gestionar tareas. La solución está separada en tres repositorios dentro de la organización: frontend, backend y deploy. Esto permite evolucionar la interfaz, la API y la infraestructura local de forma independiente, manteniendo un punto único para levantar todo el sistema con Docker Compose.
+Personal Todo es una aplicación web para gestionar tareas. La solución está separada en tres repositorios dentro de la organización: frontend, backend y deploy. Esto permite evolucionar la interfaz, la API y la infraestructura local de forma independiente, manteniendo un punto único para levantar todo el sistema con Docker Compose.
 
 ## Como levantar la aplicación
 
